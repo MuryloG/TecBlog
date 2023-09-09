@@ -15,11 +15,74 @@ body{
     text-align: center;
 }
 
-#logo, #menu{
+#area-logo, #area-menu{
     padding: 10px;
 }
 
-#logo h1{
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.postagem h2{
+    color: #f7b600;
+}
+
+.conteudo-lateral h3{
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+
+.data-post{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.postagem img{
+    width: 620px;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #ccc;
+}
+
+#area-logo h1{
     color: #4e4e4e;
     font-size: 2.5em;
 }
@@ -33,11 +96,20 @@ a{
 }
 
 a:link, a:visited{
+    color: #f7b600; 
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#area-menu a:link, #area-menu a:visited{
     color: #fff;
     padding: 8px 12px;
 }
 
-a:hover{
+#area-menu a:hover{
     color: #f7b600;
     background: white;
+    text-decoration: none;
 }
